@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-brand{
+    margin-left: 30px ;
+}
+.card-img-overlay{
+   margin-top: 150px;
+   margin-left: 50px;
+}
+.card-img-overlay button{
+    border-radius: 30px;
+}
+.section2{
+   align-items: center;
+   display: flex;
+   margin-bottom: 30px;
+
+}
+.section2 .card{
+    border: none;
+    margin-top: 30px;
+}
+.section2 .btn {
+    border-radius: 30px;
+}
+.container .card a{
+ font-size: xx-large;
+  width: 30%;
+}
+.jumbotron{
+    text-align: center;
+    background-color: lightgray;
+   padding-top: 20px;
+    padding-bottom:20px ;
+}
+.jumbotron .card-group{
+    margin-bottom: 30px;
+}
+.jumbotron .card{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.jumbotron .card a {
+    font-size: xx-large;
+}
+.section4{
+    margin-top: 50px;
+    width: 75%;
+    margin-left: 200PX;
+    display: flex;
+    margin-bottom: 30px;
+}
+.cont{
+    display: flex;
+}
+.cont .card {
+    border: none;
+}
+.cont img{
+    margin: 10px 10px ;
+}
+.section4 .card-body{
+    margin-left: 30px;
+}
+.section4 .btn{
+    border-radius: 30px;
+}
+.footer{
+ 
+    display: flex;
+    padding-bottom: 20px;
+}
+.footer div{ 
+    margin-top: 20px;
+    width: 25%;
+}
+.footer i {
+    font-size: xx-large;
+    margin-left: 5px;
+}
+.footer i:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+@media(max-width:900px){
+    .section1 .card img {
+      height: 600px;
+    }
+    .card-img-overlay{
+        margin-top:150px;
+        padding:0px;
+        margin-bottom: 20px;
+        margin-left: -10px;
+    }
+    .card-img-overlay .btn{
+        margin-top: -20px;
+      /*  padding: 0px;*/
+        border-radius: 20px;
+    }
+    /*.card-img-overlay p{
+        margin-top: -15px;  
+      font-size: small;
+    }*/
+    /*.card-img-overlay h4 {
+        margin-top: -10px;
+        font-size:large;
+    }*/
+    .section2{
+        display: block;
+        text-align: center;
+    }
+    .section4{
+        display: block;
+        margin-left: 0px;
+        width:100% ;
+    }
+    .cont img {
+        margin: 10px 0px;
+        width: 100%;
+    }
+    .footer{
+        display: block;
+    }
+    .footer div {
+        width: 75%;
+    }
+    .footer i {
+        font-size: x-large;
+    }
+}
